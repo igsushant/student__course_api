@@ -1,12 +1,15 @@
-# Student-Course API
+##Student Course Management API
+This is a minimal REST API to manage students and their enrolled courses. Built with FastAPI, SQLAlchemy, and Pydantic, it supports core CRUD operations and student-course enrollment logic.
 
-This is a FastAPI-based backend project for managing students and courses. It includes RESTful endpoints with auto-generated documentation.
+##Features:
+Create and retrieve students and courses
+Enroll students in courses
+View student details with enrolled courses
+View course details with enrolled students
+Pydantic-based request validation (with email validation)
+Database ORM with SQLAlchemy
+Auto-generated interactive API docs at /docs
 
-## Features
-
-- Create, read, update, and delete students and courses
-- Swagger UI documentation at `/docs`
-- Modular and clean code structure
 
 
 ## Getting Started
@@ -18,14 +21,14 @@ git clone https://github.com/igsushant/student__course_api.git
 cd student__course_api
 ```
 
-Install Dependencies
+Install Dependencies:
 Make sure you have Python 3.7 or higher installed.
-pip install -r requirements.txt
+Install the requirements from requirements.txt 
 
-Run the Server
+Run the app:
 uvicorn app.main:app --reload
 
-Access the API Docs:
+Open in browser
 Swagger UI: http://127.0.0.1:8000/docs
 ReDoc: http://127.0.0.1:8000/redoc
 
