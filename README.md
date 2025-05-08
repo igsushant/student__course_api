@@ -23,7 +23,7 @@ Make sure you have Python 3.7 or higher installed.
 pip install -r requirements.txt
 
 Run the Server
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 
 Access the API Docs:
 Swagger UI: http://127.0.0.1:8000/docs
