@@ -26,9 +26,9 @@ Make sure you have Python 3.7 or higher installed.
 Install the requirements from requirements.txt 
 
 Run the app:
-uvicorn app.main:app --reload
+uvicorn app.main:app --reload(Run it in terminal)
 
-Open in browser
+Open in browser(Paste the url):
 Swagger UI: http://127.0.0.1:8000/docs
 ReDoc: http://127.0.0.1:8000/redoc
 
